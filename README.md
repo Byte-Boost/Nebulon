@@ -146,9 +146,20 @@
 <span id="tecnologias">
    
 ## 🖥️Tecnologias:
+   <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,nodejs,react,nextjs,tailwind,mysql,express,sequelize&perline=3">
+   </a>
+   <br>
+   <img src="https://github.com/Byte-Boost/Nebulon/assets/76211125/3b5defa2-cfa2-437d-8e41-1a7a7f9ba0eb" alt="javascript" height="48">
+   <img src="https://github.com/Byte-Boost/Nebulon/assets/76211125/d5fed3d1-d157-4f0b-a334-ba7eecc7c43a" alt="chartjs" height="48">
+   <img src="https://github.com/Byte-Boost/Nebulon/assets/76211125/d1cb998e-806c-4145-a9c9-9faf028ede45" alt="axios" height="48">
+   <br>
+   <img src="https://github.com/Byte-Boost/Nebulon/assets/76211125/286ca07c-d34f-4c48-b83a-84bbe776b7f3" alt="typescript" height="48">
 
 ## 🛠️ Ferramentas:
-
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=vscode,github,figma&perline=3">
+  </a>
 <span id="como-usar">
    
 ## Como utilizar
