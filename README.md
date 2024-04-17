@@ -92,8 +92,8 @@
  <summary>Sprints</summary>
   
 ## Sprint 1   
-| Tarefa | Prioridade | Status |
-| --- | --- | --- |
+![sprint1](https://github.com/Byte-Boost/Nebulon/assets/125148142/cfc59894-40f9-4ac6-9730-109b8dea6a1e)
+
 
 <!--<image alt="sprint1gif" src=""/>-->
 
