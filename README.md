@@ -58,12 +58,13 @@
 | 11 | Alta | Eu, enquanto usuário administrador/padrão desejo filtrar as exibições de dados sobre vendas e comissões entre as categorias disponíveis. | RF#01 | 8 | 3 | Como usuário administrador ou padrão, devo poder filtrar exibições de dados sobre vendas e comissões entre as categorias disponíveis. |
 | 12 | Baixa | Eu, enquanto usuário administrador/padrão desejo poder exportar relatórios em formatos variados(PDF, XLXS, CSV) | RF#02 | 8 | 3 | Como usuário administrador ou padrão, devo poder exportar relatórios em vários formatos, como PDF, XLSX e CSV. |
 | 13 | Média | Eu, enquanto usuário padrão desejo ter um sistema de incentivo individual ou geral para que haja alguma competitividade saudável dentro da equipe. | RF#01 | 20 | 4 | Como usuário padrão, devo ter um sistema de incentivo individual ou geral para promover uma competição saudável na equipe. |
-| 14 | Baixa | Eu, enquanto usuário desejo poder recuperar e/ou gerar uma nova senha caso necessário. | RF#02 | 6 | 4 | Como usuário, devo poder recuperar ou gerar uma nova senha, se necessário. |
+| 14 | Baixa | Eu, enquanto usuário, desejo poder alternar a visualização da plataforma entre modo claro e escuro. | RF#02 | 1 | 4 | Como usuário, devo ter um mecanismo que me permita em um clique, alternar entre o modo de visualização claro e escuro da plataforma.
+| 15 | Baixa | Eu, enquanto usuário desejo poder recuperar e/ou gerar uma nova senha caso necessário. | RF#03 | 6 | 4 | Como usuário, devo poder recuperar ou gerar uma nova senha, se necessário. |
    
 </details>
 
 <details>
- <summary>Sprint Backlog</summary>
+ <summary>Sprint-1 Backlog</summary>
    
 | Rank | Prioridade | Requisito | Tarefa |
 | --- | --- | --- | --- |
@@ -82,6 +83,23 @@
 | 5 | Alta | RF#05 | Desenvolvimento da interface gráfica para visualização e navegação. |
 | 5 | Alta | RF#05 | Desenvolvimento do backend para visualização e navegação no painel. |
 | 5 | Alta | RF#05 | Integração da lógica com interface gráfica. |
+
+</details>
+
+<details>
+ <summary>Sprint-2 Backlog</summary>
+   
+| Rank | Prioridade | Requisito | Tarefa |
+| --- | --- | --- | --- |
+| 1 | Alta | RF#01 | Desenvolvimento do sistema de acesso do vendedor e suas permissões. |
+| 2 | Alta | RF#02 | Desenvolvimento do sistema de acesso do admin e suas permissões. |
+| 3 | Média | RNF#01 | Planejamento do layout dos gráficos. |
+| 4 | Alta | RF#03 | Implementação dos gráficos. |
+| 5 | Alta | RF#04 | Filtros de visualização das tabelas. |
+| 6 | Alta | RF#05 | Interface para cadastro de novos clientes. |
+| 7 | Média | RF#06 | Interface para cadastro de novas vendas. |
+| 8 | Baixa | RNF#02 | Alteração da nomenclatura lógica referente a produtos/clientes novos e existentes. |
+
 
 </details>
 
