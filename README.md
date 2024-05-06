@@ -64,7 +64,24 @@
 </details>
 
 <details>
- <summary>Sprint Backlog</summary>
+ <summary>Sprint-1 Backlog</summary>
+   
+| Rank | Prioridade | Requisito | Tarefa |
+| --- | --- | --- | --- |
+| 1 | Alta | RF#01 | Desenvolvimento do sistema de acesso do vendedor e suas permissões. |
+| 2 | Alta | RF#02 | Desenvolvimento do sistema de acesso do admin e suas permissões. |
+| 3 | Média | RNF#01 | Planejamento do layout dos gráficos. |
+| 4 | Alta | RF#03 | Implementação dos gráficos. |
+| 5 | Alta | RF#04 | Filtros de visualização das tabelas. |
+| 6 | Alta | RF#05 | Interface para cadastro de novos clientes. |
+| 7 | Média | RF#06 | Interface para cadastro de novas vendas. |
+| 8 | Baixa | RNF#02 | Alteração da nomenclatura lógica referente a produtos/clientes novos e existentes. |
+
+
+</details>
+
+<details>
+ <summary>Sprint-2 Backlog</summary>
    
 | Rank | Prioridade | Requisito | Tarefa |
 | --- | --- | --- | --- |
@@ -88,7 +105,6 @@
   
 ## Sprint 1   
 <image alt="sprint1gif" src="https://github.com/Byte-Boost/Nebulon/assets/125148142/cfc59894-40f9-4ac6-9730-109b8dea6a1e"/>
-
 
 ## Sprint 2
 <!--<image alt="sprint2gif" src=""/>-->
