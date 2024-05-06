@@ -68,21 +68,15 @@
    
 | Rank | Prioridade | Requisito | Tarefa |
 | --- | --- | --- | --- |
-| 1 | Alta | RF#01 | Desenvolvimento de interface gráfica para input de arquivos xlsx. |
-| 1 | Alta | RF#01 | Desenvolvimento do backend para input de arquivos xlsx. |
-| 1 | Alta | RF#01 | Desenvolvimento do banco de dados para armazenamento dos dados recebidos por xlsx. |
-| 1 | Alta | RF#01 | Integração entre interface gráfica, backend e banco de dados. |
-| 2 | Alta | RF#02 | Criação de pré cadastros de usuário, clientes e vendedores. |
-| 2 | Alta | RF#02 | Integração dos dados com banco de dados. |
-| 3 | Alta | RF#03 | Desenvolvimento da interface gráfica para edição das faixas de comissão |
-| 3 | Alta | RF#03 | Desenvolvimento da lógica para edição das faixas de comissão |
-| 3 | Alta | RF#03 | Integração da lógica com interface gráfica. |
-| 4 | Média | RF#04 | Desenvolvimento de interface gráfica para acesso à plataforma. |
-| 4 | Média | RF#04 | Desenvolvimento da lógica para acessar a plataforma através de login e senha. |
-| 4 | Média | RF#04 | Integração da interface gráfica com o backend para acesso à plataforma. |
-| 5 | Alta | RF#05 | Desenvolvimento da interface gráfica para visualização e navegação. |
-| 5 | Alta | RF#05 | Desenvolvimento do backend para visualização e navegação no painel. |
-| 5 | Alta | RF#05 | Integração da lógica com interface gráfica. |
+| 1 | Alta | RF#01 | Desenvolvimento do sistema de acesso do vendedor e suas permissões. |
+| 2 | Alta | RF#02 | Desenvolvimento do sistema de acesso do admin e suas permissões. |
+| 3 | Média | RNF#01 | Planejamento do layout dos gráficos. |
+| 4 | Alta | RF#03 | Implementação dos gráficos. |
+| 5 | Alta | RF#04 | Filtros de visualização das tabelas. |
+| 6 | Alta | RF#05 | Interface para cadastro de novos clientes. |
+| 7 | Média | RF#06 | Interface para cadastro de novas vendas. |
+| 8 | Baixa | RNF#02 | Alteração da nomenclatura lógica referente a produtos/clientes novos e existentes. |
+
 
 </details>
 
@@ -110,29 +104,15 @@
  <summary>Sprints</summary>
   
 ## Sprint 1   
-![sprint1](https://github.com/Byte-Boost/Nebulon/assets/125148142/cfc59894-40f9-4ac6-9730-109b8dea6a1e)
-
-
-<!--<image alt="sprint1gif" src=""/>-->
-
+<image alt="sprint1gif" src="https://github.com/Byte-Boost/Nebulon/assets/125148142/cfc59894-40f9-4ac6-9730-109b8dea6a1e"/>
 
 ## Sprint 2
-| Tarefa | Prioridade | Status |
-| --- | --- | --- |
-
 <!--<image alt="sprint2gif" src=""/>-->
 
 ## Sprint 3
-| Tarefa | Prioridade | Status |
-| --- | --- | --- |
-
 <!--<image alt="sprint3gif" src=""/>-->
 
-
 ## Sprint 4
-| Tarefa | Prioridade | Status |
-| --- | --- | --- |
-
 <!--<image alt="sprint4gif" src=""/>-->
 
 </details>
