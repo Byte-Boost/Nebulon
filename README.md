@@ -114,7 +114,8 @@
 <image alt="sprint1gif" src="https://github.com/Byte-Boost/Nebulon/assets/125148142/cfc59894-40f9-4ac6-9730-109b8dea6a1e"/>
 
 ## Sprint 2
-<!--<image alt="sprint2gif" src=""/>-->
+<image alt="sprint2gif" src="https://github.com/Byte-Boost/Nebulon/assets/125148142/acb79e6f-8e4d-4bd9-8ffd-47d2d0a86900"/>
+
 
 ## Sprint 3
 <!--<image alt="sprint3gif" src=""/>-->
