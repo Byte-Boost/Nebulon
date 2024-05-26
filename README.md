@@ -55,11 +55,21 @@
 | 8 | Alta | Eu, enquanto usuário desejo que haja diferenças entre permissões de acesso entre usuário padrão e administrador | RF#01 | 5 | 2 | Como usuário, deve haver diferenças de permissões de acesso entre os tipos de usuário padrão e administrador. |
 | 9 | Média | Eu, enquanto usuário administrador desejo ter uma visão ampla sobre os dados de vendas e comissões | RF#02 | 8 | 2 | Como usuário administrador, devo ter uma visão abrangente dos dados de vendas e comissões. |
 | 10 | Baixa | Eu, enquanto usuário administrador desejo cadastrar novos usuários padrão. | RF#03 | 8 | 2 | Como usuário administrador, devo ser capaz de cadastrar novos usuários padrão. |
-| 11 | Alta | Eu, enquanto usuário administrador/padrão desejo filtrar as exibições de dados sobre vendas e comissões entre as categorias disponíveis. | RF#01 | 8 | 3 | Como usuário administrador ou padrão, devo poder filtrar exibições de dados sobre vendas e comissões entre as categorias disponíveis. |
-| 12 | Baixa | Eu, enquanto usuário administrador/padrão desejo poder exportar relatórios em formatos variados(PDF, XLXS, CSV) | RF#02 | 8 | 3 | Como usuário administrador ou padrão, devo poder exportar relatórios em vários formatos, como PDF, XLSX e CSV. |
-| 13 | Média | Eu, enquanto usuário padrão desejo ter um sistema de incentivo individual ou geral para que haja alguma competitividade saudável dentro da equipe. | RF#01 | 20 | 4 | Como usuário padrão, devo ter um sistema de incentivo individual ou geral para promover uma competição saudável na equipe. |
-| 14 | Baixa | Eu, enquanto usuário, desejo poder alternar a visualização da plataforma entre modo claro e escuro. | RF#02 | 1 | 4 | Como usuário, devo ter um mecanismo que me permita em um clique, alternar entre o modo de visualização claro e escuro da plataforma.
-| 15 | Baixa | Eu, enquanto usuário desejo poder recuperar e/ou gerar uma nova senha caso necessário. | RF#03 | 6 | 4 | Como usuário, devo poder recuperar ou gerar uma nova senha, se necessário. |
+| 11 | Alta | Eu, enquanto usuário administrador/vendedor desejo poder ter como página principal o dashboard com a visualização dos gráficos e números importantes relacionados a vendas. | RF#01 | 7 | 3 | A página principal deverá ser o dashboard com informações gráficas sobre vendas e comissões, botões de filtros sobre período e categorias. |
+| 12 | Alta | Eu, enquanto usuário administrador/vendedor desejo poder adicionar novos produtos através de uma interface formulário. | RF#02 | 6 | 3 | A interface de cadastro de novos produtos deverá receber todas as informações pertinentes e necessárias sobre o produto, exibir informações de sucesso ou falha de envio, os dados enviados deverão ser registrados no banco de dados da aplicação. |
+| 13 | Alta | Eu, enquanto usuário administrador/padrão desejo que os dados como CNPJ, CPF e telefone apareçam já formatados nos campos de input conforme for digitado no campo. | RF#03 | 2 | 3 | Todo campo pertinente deverá autocompletar com pontos e traços os dados inseridos pelo usuário quando houver a necessidade, telefone, cnpj e cpf por exemplo. |
+| 14 | Alta | Eu, enquanto usuário administrador desejo que apenas usuários identificados e logados acessem as funcionalidades das páginas. | RF#04 | 3 | 3 | Apenas usuários devidamente logados devem conseguir acessar as funcionalidades de adicionar informações seja por arquivo ou formulário e visualizar as tabelas. |
+| 15 | Alta | Eu, enquanto usuário administrador/vendedor desejo visualizar a somatória das comissões e vendas na base da tabela | RF#05 | 4 | 3 | Deverá ser exibido de maneira alinhada aos números de vendas e comissões das tabelas o valor da somatórias correspondentes |
+| 16 | Média | Eu, enquanto usuário administrador/padrão desejo filtrar as exibições de dados sobre vendas e comissões entre as categorias disponíveis. | RF#06 | 3 | 3 | Os filtros deverão ser funcionais exibindo as informações sobre as categorias e períodos selecionados pelo usuário. |
+| 17 | Média | Eu, enquanto usuário administrador/vendedor desejo poder selecionar entre diferentes modos de visualização e ordem nas tabelas de comissão | RF#07 | 5 | 3 | Na interface de exibição das tabelas o usuário além dos filtros deve ter a opção de ordenar de maneira crescente/decrescente os dados exibidos. |
+| 18 | Média | Eu, enquanto usuário administrador/vendedor desejo que a opção de inserir arquvios esteja integrada aos formulários de cadastro de produtos, clientes, comissões e vendedores. | RF#08 | 3 | 3 | O acesso ao upload de arquivos deve estar integrado ao formulário de cadastro de produtos, clientes, vendedores e comissões. |
+| 19 | Baixa | Eu, enquanto usuário administrador/padrão desejo poder exportar relatórios em formatos variados(XLXS e CSV) | RF#09 | 5 | 3 | Na interface de exibição das tabelas o usuário deverá ter um botão que abra a função de exportar em arquivo (CSV e Excel) a tabela que está sendo exibida. |
+| 20 | Baixa | Eu, enquanto usuário administrador/padrão desejo receber um alerta em tela da confirmação ou não confirmação do que foi executado, envio de arquivo ou cadastro efetuado. | RF#10 | 2 | 3 | Sempre que o usuário submeter um cadastro ou a seleção e envio de um arquivo à plataforma, deverá receber uma notificação na tela do sucesso ou falha da operação. |
+| 21 | Baixa | Eu, enquanto usuário administrador/vendedor desejo poder classificar em ordem crescente ou decrescente os valor exibido das tabelas | RF#11 | 5 | 3 | Nas tabelas os valores devem poder ser classificados em ordem crescente ou decrescente pelo usuário de maneira rápida. |
+| 22 | Alta | Eu, enquanto usuário administrador/vendedor desejo que os dados como CNPJ e CPF sejam validados com seus dígitos verificadores afim de inserir apenas dados válidos na base de dados | RF#01 | 6 | 4 | Ao inserir os dados como CPF e CNPJ o sistema deve fazer a validação através dos dígitos verificadores garantindo assim a integridade dos dados inseridos na base de dados. |
+| 23 | Média | Eu, enquanto usuário padrão desejo ter um sistema de incentivo individual ou geral para que haja maior motivação da equipe de vendas | RF#02 | 20 | 4 | Como usuário padrão, devo ter um sistema de incentivo individual ou geral para promover uma competição saudável na equipe. |
+| 24 | Baixa | Eu, enquanto usuário, desejo poder alternar a visualização da plataforma entre modo claro e escuro. | RF#03 | 1 | 4 | Como usuário, devo ter um mecanismo que me permita em um clique, alternar entre o modo de visualização claro e escuro da plataforma. |
+| 25 | Baixa | Eu, enquanto usuário desejo poder recuperar e/ou gerar uma nova senha caso necessário. | RF#04 | 6 | 4 | Como usuário, devo poder recuperar ou gerar uma nova senha, se necessário. |
    
 </details>
 
@@ -102,6 +112,29 @@
 | 8 | Baixa | RNF#02 | Alteração da nomenclatura lógica referente a produtos/clientes novos e existentes. |
 
 
+</details>
+
+<details>
+ <summary>Sprint-3 Backlog</summary>
+   
+| Rank | Prioridade | Requisito | Tarefa |
+| --- | --- | --- | --- |
+| 1 | Alta | RF#01 | Redesenhar a atual página home transformando-a numa página inicial chamada dashboard com os gráficos e outras informações pertinentes. |
+| 2 | Alta | RF#02 | Criar de um formulário para inserção de novos produtos através de um formulário integrado com o mecanismo de upload de arquivo em excel. |
+| 3 | Alta | RF#03 | Implementar mecanismo de mascaramento automático dos dados inseridos pelo usuário, já sendo exibidos em tela formatados nos padrões pertinentes e limitando os campos a quantidade de caracteres. |
+| 4 | Alta | RF#04 | Implementar o sistema de validação de usuário |
+| 5 | Alta | RF#05 | Implementar a somatória das colunas de comissões e vendas totais, alinhar os valores de acordo com as respectivas colunas. |
+| 6 | Média | RF#06 | Aplicar os filtros de exibição em todas as tabelas. |
+| 7 | Média | RF#08 | Integração entre os componentes de upload e os formulários de cadastro de clientes, produtos, usuários e comissões. |
+| 8 | Média | RNF#01 | Alinhar os gráficos de maneira ordenada e organizada no dashboard. |
+| 9 | Média | RNF#02 | Aplicar títulos às páginas para facilitar a localização do usuário dentro das diversas páginas existentes na plataforma. |
+| 10 | Média | RNF#03 | Alinhar todos os dados de valores e pontuar os dados de acordo com o padrão de valor monetário Unidade Real de Valor. (R$) |
+| 11 | Média | RNF#04 | Alinhar todos os ícones e textos da sidebar à esquerda. |
+| 12 | Baixa | RF#09 | Implementar mecanismo de export de planilhas para CSV e XLXS. |
+| 13 | Baixa | RF#10 | Implementar modais de alerta de sucesso, falha e seleção de arquivo em todos os ambientes que se fazem necessário, visando a experiência do usuário. |
+| 14 | Baixa | RF#11 | Implementar sistema de exibição por classificação crescente/decrescente nas tabelas. |
+| 15 | Baixa | RF#12 | Implementar o sistema de arrastar arquivo para área de upload. |
+| 16 | Baixa | RNF#05 | Remover o fundo escuro de todas as tabelas. |
 </details>
 
 ## 🎥 Video Apresentação
