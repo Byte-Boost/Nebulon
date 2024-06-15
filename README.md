@@ -66,10 +66,14 @@
 | 19 | Baixa | Eu, enquanto usuário administrador/padrão desejo poder exportar relatórios em formatos variados(XLXS e CSV) | RF#09 | 5 | 3 | Na interface de exibição das tabelas o usuário deverá ter um botão que abra a função de exportar em arquivo (CSV e Excel) a tabela que está sendo exibida. |
 | 20 | Baixa | Eu, enquanto usuário administrador/padrão desejo receber um alerta em tela da confirmação ou não confirmação do que foi executado, envio de arquivo ou cadastro efetuado. | RF#10 | 2 | 3 | Sempre que o usuário submeter um cadastro ou a seleção e envio de um arquivo à plataforma, deverá receber uma notificação na tela do sucesso ou falha da operação. |
 | 21 | Baixa | Eu, enquanto usuário administrador/vendedor desejo poder classificar em ordem crescente ou decrescente os valor exibido das tabelas | RF#11 | 5 | 3 | Nas tabelas os valores devem poder ser classificados em ordem crescente ou decrescente pelo usuário de maneira rápida. |
-| 22 | Alta | Eu, enquanto usuário administrador/vendedor desejo que os dados como CNPJ e CPF sejam validados com seus dígitos verificadores afim de inserir apenas dados válidos na base de dados | RF#01 | 6 | 4 | Ao inserir os dados como CPF e CNPJ o sistema deve fazer a validação através dos dígitos verificadores garantindo assim a integridade dos dados inseridos na base de dados. |
-| 23 | Média | Eu, enquanto usuário padrão desejo ter um sistema de incentivo individual ou geral para que haja maior motivação da equipe de vendas | RF#02 | 20 | 4 | Como usuário padrão, devo ter um sistema de incentivo individual ou geral para promover uma competição saudável na equipe. |
-| 24 | Baixa | Eu, enquanto usuário, desejo poder alternar a visualização da plataforma entre modo claro e escuro. | RF#03 | 1 | 4 | Como usuário, devo ter um mecanismo que me permita em um clique, alternar entre o modo de visualização claro e escuro da plataforma. |
-| 25 | Baixa | Eu, enquanto usuário desejo poder recuperar e/ou gerar uma nova senha caso necessário. | RF#04 | 6 | 4 | Como usuário, devo poder recuperar ou gerar uma nova senha, se necessário. |
+| 22 | Alta | Eu, enquanto usuário administrador, desejo poder editar ou deletar cadastros de produtos, clientes, usuários e vendas | #RF01 | 5 | 4 | As funções de editar e excluir os cadastros devem estar funcionando perfeitamente dentro da permissão do usuário administrador. |
+| 23 | Alta | Eu, enquanto usuário administrador/padrão desejo que o sistema seja mais flúido e rápido ao exibir o conteúdo das tabelas. | #RF02 | 5 | 4 | Todas as tabelas devem conter o sistema de paginação diminuindo assim a requisição de informações ao banco de dados, tornando a exibição mais rápida. |
+| 24 | Alta | Eu, enquanto usuário administrador, desejo poder criar novos usuários com as permissões de administrador. | #RF03 | 5 | 4 | No formulário de cadastro de um novo usuário, deverá existir a opção atribuir permissão de administrador ao usuário, através de um checkbox. |
+| 25 | Alta | Eu, enquanto usuário administrador, desejo poder visualizar em uma tabela todos os usuários, administradores e vendedores. | #RF04 | 5 | 4 | Uma interface onde o usuário possa visualizar uma tabela com os vendedores. |
+| 26 | Média | Eu, enquanto usuário administrador/padrão desejo ao escolher o produto e cliente no momento do cadastro da venda, haja uma lista com as opções dos mesmos. | #RF05 | 6 | 4 | Os selects de clientes e produtos devem estar funcionando corretamente para facilitar o momento do cadastro da venda. |
+| 27 | Média | Eu, enquanto usuário, desejo identificar visualmente ao observar a tabela se o cliente se enquadra no quesito primeira compra. | #RF06 | 3 | 4 | Deverá conter uma sinalização visual a respeito do cliente se é a primeira vez que ele aparece no BD. |
+| 28 | Média | Eu, enquanto usuário padrão desejo que ao cadastrar uma venda o meu CPF seja inserido automaticamente. | #RF07 | 5 | 4 | Sempre que o usuário padrão(vendedor) estiver logado e realizar o cadastro de uma venda, seu CPF deverá ser inserido automaticamente no formulário de venda não permitindo que a venda seja direcionada a outra pessoa. |
+| 29 | Baixa | Eu, enquanto usuário padrão, desejo que haja um sistema de incentivo para melhor desempenho nas vendas. | #RF08 | 7 | 4 | O scoreboard deverá exibir quantas pessoas e a pontuação, dos três primeiros colocados, e a sua posição no rank. O sistema de pontuação deve abrir possibilidades para que a empresa possa administrar da melhor forma como utilizará o rank para beneficiar seus melhores vendedores. |
    
 </details>
 
@@ -135,6 +139,28 @@
 | 14 | Baixa | RF#11 | Implementar sistema de exibição por classificação crescente/decrescente nas tabelas. |
 | 15 | Baixa | RF#12 | Implementar o sistema de arrastar arquivo para área de upload. |
 | 16 | Baixa | RNF#05 | Remover o fundo escuro de todas as tabelas. |
+</details>
+
+<details>
+   <summary>Sprint-4 Backlog</summary>
+   
+| Rank | Prioridade | Requisito | Tarefa |
+| --- | --- | --- | --- |
+| 1 | Alta | #RF01 | Implementar CRUD completo nas tabelas de produto, cliente, vendas e vendedores. |
+| 2 | Alta | #RF02 | Implementar sistema de paginação nas tabelas |
+| 3 | Alta | #RF03 | Implementar sistema de atribuíção da função administrador para um novo cadastro de usuário. |
+| 4 | Alta | #RF04 | Desenvolver uma interface com a tabela dos vendedores e usuários administradores. |
+| 5 | Média | #RF05 | Implementar selects no cadastro de venda. |
+| 6 | Média | #RF06 | Implementar uma flag na tabela de vendas e de clientes |
+| 7 | Média | #RF07 | Implementar sistema de inserção automática do CPF do vendedor que está logado, no formulário de cadastro de venda. |
+| 8 | Baixa | #RF08 | Implementar um sistema de pontuação baseado na relevância das categorias de vendas pré-definidas e exibí-lo num scoreboard. |
+| 9 | Alta | #RNF01 | Verificar e alterar os DATE types no backend |
+| 10 | Alta | #RNF02 | Registrar pontuação dos vendedores |
+| 11 | Alta | #RNF03 | Melhorias e correções nos filtros do dashboard |
+| 12 | Alta | #RNF04 | Melhorias e correções no PieChart |
+| 13 | Média | #RNF05 | Alteração de nomenclaturas do sistema |
+| 14 | Baixa | #RNF06 | Remake no frontend |
+| 15 | Baixa | #RNF07 | Refatoração do código na sua totalidade |
 </details>
 
 ## 🎥 Video Apresentação
