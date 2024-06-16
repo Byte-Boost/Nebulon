@@ -1,9 +1,6 @@
 [submodule "Backend_Nebulon"]
 	path = Backend_Nebulon
 	url = https://github.com/Byte-Boost/Backend_Nebulon
-[submodule "Database_Nebulon"]
-	path = Database_Nebulon
-	url = https://github.com/Byte-Boost/Database_Nebulon
 [submodule "Frontend_Nebulon"]
 	path = Frontend_Nebulon
 	url = https://github.com/Byte-Boost/Frontend_Nebulon
