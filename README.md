@@ -229,6 +229,39 @@
    
 ## Como utilizar
 
+Requisitos :
+ - Node.js v20.6.0 ou superior
+ - MySQL 8.0
+ - Git
+
+#### Preparando o projeto
+1. Abra o cmd na pasta aonde deseja instalar o projeto
+2. Execute o comando 
+```bash
+git clone https://github.com/Byte-Boost/Nebulon
+```
+3. Entre no diretório Nebulon\Backend_Nebulon
+4. Crie um arquivo chamado ".env"
+5. Abra este arquivo com seu editor de texto de preferência, e preencha o mesmo seguindo o modelo ".env.example", presente no mesmo diretório.
+6. Repita os passos 4 e 5 no diretório Nebulon\Frontend_Nebulon
+
+### Executando o projeto
+#### Backend
+1. Certifique-se que seu serviço MySQL esteja rodando
+2. Abra o cmd na pasta Nebulon\Backend_nebulon
+3. Rode os comandos: 
+```
+npm install
+npm run start
+```
+#### Frontend
+1. Abra o cmd na pasta Nebulon\Frontend_Nebulon
+2. Rode os comandos: 
+```
+npm install
+npm run dev
+```
+
 
 <span id="equipe">
    
